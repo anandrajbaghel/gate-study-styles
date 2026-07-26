@@ -1,7 +1,7 @@
 {
   "id": "gate-study-styles",
   "name": "GATE Study Styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "1.8.0",
   "description": "Custom styles for GATE study notes with toggleable settings for admonitions, formatting, and embeds.",
   "author": "Anand Baghel",
