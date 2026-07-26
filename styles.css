@@ -1,0 +1,219 @@
+/* ==========================================
+   GATE STUDY CALLOUTS
+========================================== */
+.gs-admonitions .callout[data-callout="subject"] {
+  --callout-color: 44, 62, 80;
+  --callout-icon: library;
+}
+
+.gs-admonitions .callout[data-callout="topic"] {
+  --callout-color: 52, 152, 219;
+  --callout-icon: folder-tree;
+}
+
+.gs-admonitions .callout[data-callout="formula"] {
+  --callout-color: 0, 123, 255;
+  --callout-icon: sigma;
+}
+
+.gs-admonitions .callout[data-callout="definition"] {
+  --callout-color: 39, 174, 96;
+  --callout-icon: book-open;
+}
+
+.gs-admonitions .callout[data-callout="concept"] {
+  --callout-color: 142, 68, 173;
+  --callout-icon: lightbulb;
+}
+
+.gs-admonitions .callout[data-callout="derivation"] {
+  --callout-color: 243, 156, 18;
+  --callout-icon: list-ordered;
+}
+
+.gs-admonitions .callout[data-callout="example"] {
+  --callout-color: 52, 73, 94;
+  --callout-icon: flask-conical;
+}
+
+.gs-admonitions .callout[data-callout="numerical"] {
+  --callout-color: 41, 128, 185;
+  --callout-icon: calculator;
+}
+
+.gs-admonitions .callout[data-callout="pyq"] {
+  --callout-color: 231, 76, 60;
+  --callout-icon: file-question;
+}
+
+.gs-admonitions .callout[data-callout="hint"] {
+  --callout-color: 241, 196, 15;
+  --callout-icon: lightbulb;
+}
+
+.gs-admonitions .callout[data-callout="answer"] {
+  --callout-color: 46, 204, 113;
+  --callout-icon: check-circle;
+}
+
+.gs-admonitions .callout[data-callout="trick"] {
+  --callout-color: 230, 126, 34;
+  --callout-icon: zap;
+}
+
+.gs-admonitions .callout[data-callout="examtip"] {
+  --callout-color: 211, 84, 0;
+  --callout-icon: target;
+}
+
+.gs-admonitions .callout[data-callout="important"] {
+  --callout-color: 192, 57, 43;
+  --callout-icon: star;
+}
+
+.gs-admonitions .callout[data-callout="mistake"] {
+  --callout-color: 127, 0, 0;
+  --callout-icon: alert-triangle;
+}
+
+.gs-admonitions .callout[data-callout="memory"] {
+  --callout-color: 26, 188, 156;
+  --callout-icon: brain;
+}
+
+.gs-admonitions .callout[data-callout="revision"] {
+  --callout-color: 155, 89, 182;
+  --callout-icon: refresh-cw;
+}
+
+.gs-admonitions .callout[data-callout="faq"] {
+  --callout-color: 22, 160, 133;
+  --callout-icon: messages-square;
+}
+
+.gs-admonitions .callout[data-callout="refer"] {
+  --callout-color: 0, 184, 148;
+  --callout-icon: link;
+}
+
+.gs-admonitions .callout[data-callout="related"] {
+  --callout-color: 22, 160, 133;
+  --callout-icon: link-2;
+}
+
+.gs-admonitions .callout[data-callout="navigation"] {
+  --callout-color: 52, 152, 219;
+  --callout-icon: map;
+}
+
+.gs-admonitions .callout[data-callout="prerequisite"] {
+  --callout-color: 142, 68, 173;
+  --callout-icon: arrow-left-circle;
+}
+
+.gs-admonitions .callout[data-callout="next"] {
+  --callout-color: 39, 174, 96;
+  --callout-icon: arrow-right-circle;
+}
+
+/* ==========================================
+   CENTER IMAGES
+========================================== */
+.gs-center-images img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==========================================
+   CENTER TABLE
+========================================== */
+.gs-center-table .markdown-preview-view table {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+/* ==========================================
+   CLEAN EMBEDS
+========================================== */
+body.gs-embeds {
+  --embed-background: transparent;
+  --embed-border-start: none;
+  --embed-border-end: none;
+  --embed-border-top: none;
+  --embed-border-bottom: none;
+  --embed-padding: 0;
+  --embed-max-height: none;
+}
+
+.gs-embeds .workspace .markdown-embed,
+.gs-embeds .workspace .markdown-embed-content,
+.gs-embeds .workspace .markdown-embed .markdown-preview-view {
+  border: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  background: transparent;
+  max-width: 100%;
+  width: 100%;
+  box-shadow: none;
+}
+
+.gs-embeds .markdown-embed-link svg {
+  stroke: var(--gate-custom-color);
+}
+
+.gs-embeds .workspace .internal-embed {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+.gs-embeds .workspace .internal-embed .markdown-embed {
+  padding: 0;
+  margin: 0;
+}
+
+.gs-embeds .workspace .markdown-embed hr,
+.gs-embeds .workspace .internal-embed hr {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* ==========================================
+   HIGHLIGHT STYLE
+========================================== */
+.gs-highlight mark {
+  background-color: var(--gate-custom-color) !important;
+  background-color: color-mix(in srgb, var(--gate-custom-color) 20%, transparent 80%) !important;
+  color: #000 !important;
+  padding: 0.08em 0.4em;
+  border-radius: 4px;
+  transition: 0.21s;
+}
+
+body.theme-dark.gs-highlight mark,
+.theme-dark .gs-highlight mark {
+  background-color: color-mix(in srgb, var(--gate-custom-color) 40%, var(--background-primary) 60%) !important;
+  color: #fff !important;
+}
+
+/* ==========================================
+   TABLE HEADER STYLE
+========================================== */
+.gs-table .markdown-preview-view table th {
+  background-color: #eee !important;
+  color: var(--gate-custom-color) !important;
+}
+
+/* ==========================================
+   UNDERLINE STYLE
+========================================== */
+.gs-underline .markdown-rendered u {
+  text-decoration: none !important;
+  border-bottom: 2px solid var(--gate-custom-color) !important;
+}
