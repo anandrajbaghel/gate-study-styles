@@ -9,7 +9,7 @@ const DEFAULT_SETTINGS = {
     enableTableStyle: true,
     enableUnderline: true,
     useCustomColor: false,
-    customColor: '#529b2e'
+    customColor: '#df3522'
 };
 
 class GateStudyStylesPlugin extends Plugin {
