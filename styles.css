@@ -2,117 +2,117 @@
    GATE STUDY CALLOUTS
 ========================================== */
 .gs-admonitions .callout[data-callout="subject"] {
-  --callout-color: 44, 62, 80;
+  --callout-color:  rgb(44, 62, 80);
   --callout-icon: library;
 }
 
 .gs-admonitions .callout[data-callout="topic"] {
-  --callout-color: 52, 152, 219;
+  --callout-color:  rgb(52, 152, 219);
   --callout-icon: folder-tree;
 }
 
 .gs-admonitions .callout[data-callout="formula"] {
-  --callout-color: 0, 123, 255;
+  --callout-color:  rgb(0, 123, 255);
   --callout-icon: sigma;
 }
 
 .gs-admonitions .callout[data-callout="definition"] {
-  --callout-color: 39, 174, 96;
+  --callout-color:  rgb(39, 174, 96);
   --callout-icon: book-open;
 }
 
 .gs-admonitions .callout[data-callout="concept"] {
-  --callout-color: 142, 68, 173;
+  --callout-color:  rgb(142, 68, 173);
   --callout-icon: lightbulb;
 }
 
 .gs-admonitions .callout[data-callout="derivation"] {
-  --callout-color: 243, 156, 18;
+  --callout-color:  rgb(243, 156, 18);
   --callout-icon: list-ordered;
 }
 
 .gs-admonitions .callout[data-callout="example"] {
-  --callout-color: 52, 73, 94;
+  --callout-color: rgb(52, 73, 94);
   --callout-icon: flask-conical;
 }
 
 .gs-admonitions .callout[data-callout="numerical"] {
-  --callout-color: 41, 128, 185;
+  --callout-color: rgb(41, 128, 185);
   --callout-icon: calculator;
 }
 
 .gs-admonitions .callout[data-callout="pyq"] {
-  --callout-color: 231, 76, 60;
+  --callout-color: rgb(231, 76, 60);
   --callout-icon: file-question;
 }
 
 .gs-admonitions .callout[data-callout="hint"] {
-  --callout-color: 241, 196, 15;
+  --callout-color: rgb(241, 196, 15);
   --callout-icon: lightbulb;
 }
 
 .gs-admonitions .callout[data-callout="answer"] {
-  --callout-color: 46, 204, 113;
+  --callout-color: rgb(46, 204, 113);
   --callout-icon: check-circle;
 }
 
 .gs-admonitions .callout[data-callout="trick"] {
-  --callout-color: 230, 126, 34;
+  --callout-color: rgb(230, 126, 34);
   --callout-icon: zap;
 }
 
 .gs-admonitions .callout[data-callout="examtip"] {
-  --callout-color: 211, 84, 0;
+  --callout-color: rgb(211, 84, 0);
   --callout-icon: target;
 }
 
 .gs-admonitions .callout[data-callout="important"] {
-  --callout-color: 192, 57, 43;
+  --callout-color: rgb(192, 57, 43);
   --callout-icon: star;
 }
 
 .gs-admonitions .callout[data-callout="mistake"] {
-  --callout-color: 127, 0, 0;
+  --callout-color: rgb(127, 0, 0);
   --callout-icon: alert-triangle;
 }
 
 .gs-admonitions .callout[data-callout="memory"] {
-  --callout-color: 26, 188, 156;
+  --callout-color: rgb(26, 188, 156);
   --callout-icon: brain;
 }
 
 .gs-admonitions .callout[data-callout="revision"] {
-  --callout-color: 155, 89, 182;
+  --callout-color: rgb(155, 89, 182);
   --callout-icon: refresh-cw;
 }
 
 .gs-admonitions .callout[data-callout="faq"] {
-  --callout-color: 22, 160, 133;
+  --callout-color: rgb(22, 160, 133);
   --callout-icon: messages-square;
 }
 
 .gs-admonitions .callout[data-callout="refer"] {
-  --callout-color: 0, 184, 148;
+  --callout-color: rgb(0, 184, 148);
   --callout-icon: link;
 }
 
 .gs-admonitions .callout[data-callout="related"] {
-  --callout-color: 22, 160, 133;
+  --callout-color: rgb(22, 160, 133);
   --callout-icon: link-2;
 }
 
 .gs-admonitions .callout[data-callout="navigation"] {
-  --callout-color: 52, 152, 219;
+  --callout-color: rgb(52, 152, 219);
   --callout-icon: map;
 }
 
 .gs-admonitions .callout[data-callout="prerequisite"] {
-  --callout-color: 142, 68, 173;
+  --callout-color: rgb(142, 68, 173);
   --callout-icon: arrow-left-circle;
 }
 
 .gs-admonitions .callout[data-callout="next"] {
-  --callout-color: 39, 174, 96;
+  --callout-color: rgb(39, 174, 96);
   --callout-icon: arrow-right-circle;
 }
 
