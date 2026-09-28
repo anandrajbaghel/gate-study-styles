@@ -50,12 +50,6 @@ Examples include:
 - Important
 - And more :  concept, derivation, example, numerical, hint, answer, trick, examtip, mistake, memory, revision, faq, refer, related, navigation, prerequisite, next, table, and quick
 
-#### Examples
-
-> [!faq] FAQs
-
-> [!examtip] Tips
-
 ---
 
 ### 🖼️ Center Images
