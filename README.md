@@ -48,9 +48,13 @@ Examples include:
 - Definition
 - PYQ
 - Important
-- Tip
-- Warning
-- and more.
+- And more :  concept, derivation, example, numerical, hint, answer, trick, examtip, mistake, memory, revision, faq, refer, related, navigation, prerequisite, next, table, and quick
+
+#### Examples
+
+> [!faq] FAQs
+
+> [!examtip] Tips
 
 ---
 
@@ -113,6 +117,12 @@ Enhances
 ```
 
 with cleaner styling that integrates with the plugin color settings.
+
+---
+
+### Adaptive Image
+
+Image adapts to theme.
 
 ---
 
