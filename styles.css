@@ -2,38 +2,38 @@
    GATE STUDY CALLOUTS
 ========================================== */
 .gs-admonitions .callout[data-callout="subject"] {
-  --callout-color:  rgb(44, 62, 80);
-  --callout-icon: library;
+  --callout-color: rgb(66, 99, 130);
+  --callout-icon: square-library;
 }
 
 .gs-admonitions .callout[data-callout="topic"] {
-  --callout-color:  rgb(52, 152, 219);
-  --callout-icon: folder-tree;
+  --callout-color: rgb(52, 152, 219);
+  --callout-icon: files;
 }
 
 .gs-admonitions .callout[data-callout="formula"] {
-  --callout-color:  rgb(0, 123, 255);
+  --callout-color: rgb(0, 123, 255);
   --callout-icon: sigma;
 }
 
 .gs-admonitions .callout[data-callout="definition"] {
-  --callout-color:  rgb(39, 174, 96);
-  --callout-icon: book-open;
+  --callout-color: rgb(39, 174, 96);
+  --callout-icon: book-a;
 }
 
 .gs-admonitions .callout[data-callout="concept"] {
-  --callout-color:  rgb(142, 68, 173);
+  --callout-color: rgb(153, 102, 204);
   --callout-icon: lightbulb;
 }
 
 .gs-admonitions .callout[data-callout="derivation"] {
-  --callout-color:  rgb(243, 156, 18);
+  --callout-color: rgb(243, 156, 18);
   --callout-icon: list-ordered;
 }
 
 .gs-admonitions .callout[data-callout="example"] {
-  --callout-color: rgb(52, 73, 94);
-  --callout-icon: flask-conical;
+  --callout-color: rgb(76, 175, 80);
+  --callout-icon: file-box;
 }
 
 .gs-admonitions .callout[data-callout="numerical"] {
@@ -53,17 +53,17 @@
 
 .gs-admonitions .callout[data-callout="answer"] {
   --callout-color: rgb(46, 204, 113);
-  --callout-icon: check-circle;
+  --callout-icon: check-check;
 }
 
 .gs-admonitions .callout[data-callout="trick"] {
   --callout-color: rgb(230, 126, 34);
-  --callout-icon: zap;
+  --callout-icon: clock-check;
 }
 
 .gs-admonitions .callout[data-callout="examtip"] {
   --callout-color: rgb(211, 84, 0);
-  --callout-icon: target;
+  --callout-icon: crosshair;
 }
 
 .gs-admonitions .callout[data-callout="important"] {
@@ -72,8 +72,8 @@
 }
 
 .gs-admonitions .callout[data-callout="mistake"] {
-  --callout-color: rgb(127, 0, 0);
-  --callout-icon: alert-triangle;
+  --callout-color: rgb(190, 53, 53);
+  --callout-icon: circle-x;
 }
 
 .gs-admonitions .callout[data-callout="memory"] {
@@ -83,7 +83,7 @@
 
 .gs-admonitions .callout[data-callout="revision"] {
   --callout-color: rgb(155, 89, 182);
-  --callout-icon: refresh-cw;
+  --callout-icon: file-clock;
 }
 
 .gs-admonitions .callout[data-callout="faq"] {
@@ -93,7 +93,7 @@
 
 .gs-admonitions .callout[data-callout="refer"] {
   --callout-color: rgb(0, 184, 148);
-  --callout-icon: link;
+  --callout-icon: file-symlink;
 }
 
 .gs-admonitions .callout[data-callout="related"] {
@@ -102,18 +102,28 @@
 }
 
 .gs-admonitions .callout[data-callout="navigation"] {
-  --callout-color: rgb(52, 152, 219);
-  --callout-icon: map;
+  --callout-color: rgb(33, 150, 243);
+  --callout-icon: route;
 }
 
 .gs-admonitions .callout[data-callout="prerequisite"] {
   --callout-color: rgb(142, 68, 173);
-  --callout-icon: arrow-left-circle;
+  --callout-icon: book-open-text;
 }
 
 .gs-admonitions .callout[data-callout="next"] {
   --callout-color: rgb(39, 174, 96);
   --callout-icon: arrow-right-circle;
+}
+
+.gs-admonitions .callout[data-callout="table"] {
+  --callout-color: rgb(255, 144, 17);
+  --callout-icon: table;
+}
+
+.gs-admonitions .callout[data-callout="quick"] {
+  --callout-color: rgb(255, 87, 34);
+  --callout-icon: rabbit;
 }
 
 /* ==========================================
@@ -150,7 +160,11 @@ body.gs-embeds {
 
 body.gs-embeds .app-container .workspace .markdown-embed,
 body.gs-embeds .app-container .workspace .markdown-embed-content,
-body.gs-embeds .app-container .workspace .markdown-embed .markdown-preview-view {
+body.gs-embeds
+  .app-container
+  .workspace
+  .markdown-embed
+  .markdown-preview-view {
   border: none;
   padding: 0;
   margin: 0;
@@ -191,7 +205,11 @@ body.gs-embeds .app-container .workspace .internal-embed hr {
 body.gs-highlight .app-container .markdown-rendered mark,
 body.gs-highlight .app-container .cm-highlight {
   background-color: var(--gate-custom-color);
-  background-color: color-mix(in srgb, var(--gate-custom-color) 20%, transparent 80%);
+  background-color: color-mix(
+    in srgb,
+    var(--gate-custom-color) 20%,
+    transparent 80%
+  );
   color: #000;
   padding: 0.08em 0.4em;
   border-radius: 4px;
@@ -200,7 +218,11 @@ body.gs-highlight .app-container .cm-highlight {
 
 body.theme-dark.gs-highlight .app-container .markdown-rendered mark,
 body.theme-dark.gs-highlight .app-container .cm-highlight {
-  background-color: color-mix(in srgb, var(--gate-custom-color) 40%, var(--background-primary) 60%);
+  background-color: color-mix(
+    in srgb,
+    var(--gate-custom-color) 40%,
+    var(--background-primary) 60%
+  );
   color: #fff;
 }
 
@@ -220,4 +242,28 @@ body.gs-underline .app-container .markdown-rendered u,
 body.gs-underline .app-container .cm-underline {
   text-decoration: none;
   border-bottom: 2px solid var(--gate-custom-color);
+}
+
+/* ==========================================
+   ADAPTIVE IMAGE THEME (Dark Mode inversion)
+   Filter value is compiled in main.js and
+   exposed as --gs-adaptive-image-filter.
+========================================== */
+
+/* Smooth transition when swapping Light <-> Dark */
+.gs-adaptive-images .markdown-rendered img:not(.emoji),
+.gs-adaptive-images .cm-content img:not(.emoji) {
+  transition: filter 0.3s ease-in-out;
+}
+
+/* Only applies in dark mode and when the module is enabled */
+.theme-dark.gs-adaptive-images .markdown-rendered img:not(.emoji),
+.theme-dark.gs-adaptive-images .cm-content img:not(.emoji) {
+  filter: var(
+    --gs-adaptive-image-filter,
+    invert(100%) hue-rotate(180deg) brightness(105%) contrast(105%)
+  );
+
+  /* Hardware acceleration for smooth rendering */
+  transform: translateZ(0);
 }
